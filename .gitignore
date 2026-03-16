@@ -1,0 +1,30 @@
+# Secrets and credentials
+.env
+.env.local
+.env.*.local
+secrets.yml
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Node dependencies (if using node-based actions)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+.cache/
+dist/
+
+# Logs
+*.log
+logs/
