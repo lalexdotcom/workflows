@@ -1,0 +1,14 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+      - "v*.*.*-*"
+
+jobs:
+  release:
+    uses: ./.github/workflows/release-and-publish.yml
+    secrets: inherit
+    with:
+      publish: false
